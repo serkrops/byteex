@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Benefits from "./components/Benefits";
 import Connection from "./components/Connection";
+import Describe from "./components/Describe";
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       <Benefits />
       {/* Build connection section */}
       <Connection />
-      {/* How it works section */}
-      <div></div>
+      {/* Describe how product works section */}
+      <Describe />
       {/* Rewiews */}
       <div></div>
       {/* FAQ */}
