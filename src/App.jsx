@@ -2,8 +2,8 @@ import Hero from "./components/Hero";
 import Benefits from "./components/Benefits";
 import Connection from "./components/Connection";
 import Describe from "./components/Describe";
-
 import Reviews from "./components/Reviews";
+import Faq from "./components/Faq";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       {/* Reviews */}
       <Reviews />
       {/* FAQ */}
-      <div></div>
+      <Faq />
       {/* Info banner */}
       <div></div>
       {/* Final CTA */}
