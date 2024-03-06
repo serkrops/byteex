@@ -3,6 +3,8 @@ import Benefits from "./components/Benefits";
 import Connection from "./components/Connection";
 import Describe from "./components/Describe";
 
+import Reviews from "./components/Reviews";
+
 function App() {
   return (
     <div className="flex flex-col items-center w-full">
@@ -14,8 +16,8 @@ function App() {
       <Connection />
       {/* Describe how product works section */}
       <Describe />
-      {/* Rewiews */}
-      <div></div>
+      {/* Reviews */}
+      <Reviews />
       {/* FAQ */}
       <div></div>
       {/* Info banner */}
