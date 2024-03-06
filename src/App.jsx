@@ -4,6 +4,7 @@ import Connection from "./components/Connection";
 import Describe from "./components/Describe";
 import Reviews from "./components/Reviews";
 import Faq from "./components/Faq";
+import Banner from "./components/Banner";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       {/* FAQ */}
       <Faq />
       {/* Info banner */}
-      <div></div>
+      <Banner />
       {/* Final CTA */}
     </div>
   );
