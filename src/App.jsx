@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import Benefits from "./components/Benefits";
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       {/* Hero section */}
       <Hero />
       {/* Top benefits section */}
-      <div></div>
+      <Benefits />
       {/* Build connection section */}
       <div></div>
       {/* How it works section */}

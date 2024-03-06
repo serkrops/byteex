@@ -4,15 +4,15 @@ const Hero = () => {
     "CONSCIOUSLY MADE BUTTER SOFT STAPLES FOR EVERY DAY (OR NIGHT) | FREE SHIPPING on orders > $200 | easy 45 day return window.";
   const features = [
     {
-      img: "src/assets/hero/sun-moon.png",
+      img: "src/assets/sun-moon.png",
       text: "Beautiful, comfortable loungewear for day or night.",
     },
     {
-      img: "src/assets/hero/cart.png",
+      img: "src/assets/cart.png",
       text: "No wasteful extras, like tags or plastic packaging.",
     },
     {
-      img: "src/assets/hero/wind.png",
+      img: "src/assets/wind.png",
       text: "Our signature fabric is incredibly comfortable — unlike anything you’ve ever felt.",
     },
   ];
@@ -27,7 +27,7 @@ const Hero = () => {
       </div>
       <div className="flex flex-col items-center w-full md:items-start md:max-w-7xl md:p-6 gap-3">
         <div className="flex justify-center p-4 max-w-sm md:justify-start">
-          <img src="src/assets/hero/logo.png" alt="Logo" />
+          <img src="src/assets/logo.png" alt="Logo" />
         </div>
         <div className="md:flex md:justify-between md:items-center w-full">
           <div className="flex flex-col items-center gap-3 px-6 md:p-0 md:items-start">
@@ -37,7 +37,7 @@ const Hero = () => {
             <div className="flex flex-col items-center gap-4 py-4 min-w-sm">
               <div className="flex items-center md:hidden">
                 <img
-                  src="src/assets/hero/group-mobile.png"
+                  src="src/assets/group-mobile.png"
                   alt="Group Image Mobile"
                 />
               </div>
@@ -55,15 +55,15 @@ const Hero = () => {
             <div className="flex justify-center items-center p-2 min-w-sm max-w-4xl">
               <button className="flex justify-center items-center gap-6 p-6 bg-[#01005B] hover:bg-[#5d81ce] text-white text-2xl rounded-md w-full transition-colors">
                 <p>Customize Your Outfit</p>
-                <img src="src/assets/hero/arrow.png" alt="" />
+                <img src="src/assets/arrow.png" alt="" />
               </button>
             </div>
             <div className="flex flex-col p-4 border rounded-lg shadow-xl max-w-sm">
               <div className="flex gap-1">
-                <img src="src/assets/hero/avatar.png" alt="Avatar Image" />
+                <img src="src/assets/avatar.png" alt="Avatar Image" />
                 <div className="flex flex-col">
                   <div className="flex justify-between">
-                    <img src="src/assets/hero/stars.svg" alt="Stars" />
+                    <img src="src/assets/stars.svg" alt="Stars" />
                     <p className="text-xs text-[#828282]">
                       One of 500+ 5 Star Reviews Online
                     </p>
@@ -78,10 +78,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="hidden justify-center max-h-[422px] max-w-[725px] md:flex">
-            <img
-              src="src/assets/hero/group-desktop.png"
-              alt="Group Image Desktop"
-            />
+            <img src="src/assets/group-desktop.png" alt="Group Image Desktop" />
           </div>
         </div>
       </div>
@@ -89,33 +86,24 @@ const Hero = () => {
         <div className="flex flex-col items-center gap-4 md:hidden">
           <p className="text-base text-[#868787]">as seen in</p>
           <div className="flex justify-center items-center gap-4">
-            <img src="src/assets/hero/artboard-eco.png" alt="Eco-stylist" />
-            <img
-              src="src/assets/hero/artboard-canadian.png"
-              alt="Eco-stylist"
-            />
-            <img src="src/assets/hero/artboard-jullian.png" alt="Eco-stylist" />
+            <img src="src/assets/artboard-eco.png" alt="Eco-stylist" />
+            <img src="src/assets/artboard-canadian.png" alt="Eco-stylist" />
+            <img src="src/assets/artboard-jullian.png" alt="Eco-stylist" />
           </div>
           <div className="flex gap-2">
-            <img src="src/assets/hero/ellipse-gray.png" alt="" />
-            <img src="src/assets/hero/ellipse-black.png" alt="" />
-            <img src="src/assets/hero/ellipse-gray.png" alt="" />
+            <img src="src/assets/ellipse-gray.png" alt="" />
+            <img src="src/assets/ellipse-black.png" alt="" />
+            <img src="src/assets/ellipse-gray.png" alt="" />
           </div>
         </div>
         <div className="hidden flex-col justify-center items-center gap-4 md:flex">
           <p className="text-base text-[#868787]">as seen in</p>
-          <div className="flex justify-center items-center gap-4">
-            <img src="src/assets/hero/artboard-eco.png" alt="Eco-stylist" />
-            <img
-              src="src/assets/hero/artboard-canadian.png"
-              alt="Eco-stylist"
-            />
-            <img src="src/assets/hero/artboard-jullian.png" alt="Eco-stylist" />
-            <img src="src/assets/hero/artboard-eco-hub.png" alt="Eco-stylist" />
-            <img
-              src="src/assets/hero/artboard-trenhunter.png"
-              alt="Eco-stylist"
-            />
+          <div className="flex justify-between items-center gap-2 w-full">
+            <img src="src/assets/artboard-eco.png" alt="Eco-stylist" />
+            <img src="src/assets/artboard-canadian.png" alt="Eco-stylist" />
+            <img src="src/assets/artboard-jullian.png" alt="Eco-stylist" />
+            <img src="src/assets/artboard-eco-hub.png" alt="Eco-stylist" />
+            <img src="src/assets/artboard-trenhunter.png" alt="Eco-stylist" />
           </div>
         </div>
       </div>
