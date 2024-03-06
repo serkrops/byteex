@@ -5,25 +5,19 @@ import Describe from "./components/Describe";
 import Reviews from "./components/Reviews";
 import Faq from "./components/Faq";
 import Banner from "./components/Banner";
+import Cta from "./components/Cta";
 
 function App() {
   return (
     <div className="flex flex-col items-center w-full">
-      {/* Hero section */}
       <Hero />
-      {/* Top benefits section */}
       <Benefits />
-      {/* Build connection section */}
       <Connection />
-      {/* Describe how product works section */}
       <Describe />
-      {/* Reviews */}
       <Reviews />
-      {/* FAQ */}
       <Faq />
-      {/* Info banner */}
       <Banner />
-      {/* Final CTA */}
+      <Cta />
     </div>
   );
 }
