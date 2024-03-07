@@ -1,3 +1,7 @@
+import { globalTitle } from "../constants";
+import Button from "./Button";
+import TitleComponent from "./TitleComponent";
+
 const Connection = () => {
   return (
     <div className="flex flex-col items-center w-full md:flex-row md:justify-between md:items-center md:max-w-7xl md:p-6 gap-3 bg-[#f0eeef]">
@@ -8,9 +12,7 @@ const Connection = () => {
         />
       </div>
       <div className="flex flex-col items-center md:items-start gap-4 p-4">
-        <div className="flex justify-center font-normal text-3xl text-center md:justify-start text-[#2A2996] leading-9 py-4 px-4 min-w-sm">
-          <h1>Be your best self.</h1>
-        </div>
+        <TitleComponent title={globalTitle.connection} />
         <div className="flex justify-center md:hidden">
           <img
             src="src/assets/group-corners-mobile.png"
@@ -53,10 +55,7 @@ const Connection = () => {
           <p>Cras mattis varius mollis.</p>
         </div>
         <div className="hidden justify-start items-center p-2 min-w-sm max-w-4xl md:flex">
-          <button className="flex justify-center items-center gap-6 p-6 bg-[#01005B] hover:bg-[#5d81ce] text-white text-2xl rounded-md w-full transition-colors">
-            <p>Customize Your Outfit</p>
-            <img src="src/assets/arrow.png" alt="" />
-          </button>
+          <Button />
         </div>
       </div>
     </div>

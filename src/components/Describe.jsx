@@ -1,9 +1,11 @@
+import { globalTitle } from "../constants";
+import Button from "./Button";
+import TitleComponent from "./TitleComponent";
+
 const Describe = () => {
   return (
     <div className="flex flex-col gap-4 md:gap-8 w-full">
-      <div className="flex justify-center font-normal text-3xl text-center md:text-start text-[#01005B] leading-9 py-1 px-4 min-w-sm">
-        <h1>Comfort made easy</h1>
-      </div>
+      <TitleComponent title={globalTitle.describe} />
       <div className="flex justify-center items-center gap-6 md:hidden">
         <img src="src/assets/arrow-left.png" alt="Arrow left" />
         <div className="flex flex-col items-center justify-center w-[288px] h-[288px] p-8 gap-4 bg-[#f0eeef] text-center rounded-lg">
@@ -39,10 +41,7 @@ const Describe = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center p-2 min-w-sm">
-        <button className="flex justify-center items-center gap-6 p-6 bg-[#01005B] hover:bg-[#5d81ce] text-white text-2xl rounded-md transition-colors">
-          <p>Customize Your Outfit</p>
-          <img src="src/assets/arrow.png" alt="" />
-        </button>
+        <Button />
       </div>
     </div>
   );

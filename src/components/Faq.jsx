@@ -1,20 +1,18 @@
-import Accordion from "./AccordionComponent";
+import { globalTitle } from "../constants";
+import AccordionComponent from "./AccordionComponent";
+import Button from "./Button";
+import TitleComponent from "./TitleComponent";
 
 const Faq = () => {
   return (
     <div className="flex flex-col items-center justify-center md:items-start md:justify-evenly md:flex-row p-3 w-full">
       <div className="flex flex-col md:items-start gap-6 max-h-[645px]">
-        <div className="flex justify-center font-normal text-3xl text-center md:text-start text-[#01005B] leading-9 py-1 px-4 min-w-sm">
-          <h1 className="p-2.5">Frequently asked questions.</h1>
-        </div>
+        <TitleComponent title={globalTitle.faq} />
         <div className="flex flex-col gap-6 p-2 max-w-96">
-          <Accordion />
+          <AccordionComponent />
         </div>
         <div className="flex justify-start items-center p-6 min-w-sm max-w-4xl">
-          <button className="flex justify-center items-center gap-6 p-6 bg-[#01005B] hover:bg-[#5d81ce] text-white text-2xl rounded-md transition-colors">
-            <p>Customize Your Outfit</p>
-            <img src="src/assets/arrow.png" alt="" />
-          </button>
+          <Button />
         </div>
       </div>
       <div className="hidden justify-center p-6 max-w-[430px] max-h-[645px] md:flex">
