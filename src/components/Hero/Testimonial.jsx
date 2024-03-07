@@ -1,10 +1,10 @@
 export const Testimonial = () => (
   <div className="flex flex-col p-4 border rounded-lg shadow-xl max-w-sm">
     <div className="flex gap-1">
-      <img src="src/assets/avatar.png" alt="Avatar Image" />
+      <img src="public/images/avatar.png" alt="Avatar Image" />
       <div className="flex flex-col">
         <div className="flex justify-between">
-          <img src="src/assets/stars.svg" alt="Stars" />
+          <img src="public/images/stars.svg" alt="Stars" />
           <p className="text-xs text-[#828282]">
             One of 500+ 5 Star Reviews Online
           </p>

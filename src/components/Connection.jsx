@@ -7,7 +7,7 @@ const Connection = () => {
     <div className="flex flex-col items-center w-full md:flex-row md:justify-between md:items-center md:max-w-7xl md:p-6 gap-3 bg-[#f0eeef]">
       <div className="hidden justify-center md:flex p-4">
         <img
-          src="src/assets/group-corners-desktop.png"
+          src="public/images/group-corners-desktop.png"
           alt="Group Image in corners"
         />
       </div>
@@ -15,7 +15,7 @@ const Connection = () => {
         <TitleComponent title={globalTitle.connection} />
         <div className="flex justify-center md:hidden">
           <img
-            src="src/assets/group-corners-mobile.png"
+            src="public/images/group-corners-mobile.png"
             alt="Group Image in corners"
           />
         </div>

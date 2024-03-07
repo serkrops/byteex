@@ -17,7 +17,7 @@ const Faq = () => {
       </div>
       <div className="hidden justify-center p-6 max-w-[430px] max-h-[645px] md:flex">
         <img
-          src="src/assets/group-corners-faq.png"
+          src="public/images/group-corners-faq.png"
           alt="Group images in corners for FAQ"
         />
       </div>
