@@ -20,10 +20,7 @@ const Hero = () => {
             <TitleComponent title={globalTitle.hero} />
             <div className="flex flex-col items-center gap-4 py-4 min-w-sm">
               <div className="flex items-center md:hidden">
-                <img
-                  src="/images/group-mobile.png"
-                  alt="Group Image Mobile"
-                />
+                <img src="/images/group-mobile.png" alt="Group Image Mobile" />
               </div>
               <FeatureList />
             </div>
@@ -38,10 +35,8 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex items-center md:gap-6 p-4">
-        <div className="flex p-4 md:hidden">
-          <div className="flex gap-2 max-w-[450px]">
-            <LogoCarousel />
-          </div>
+        <div className="flex md:hidden">
+          <LogoCarousel />
         </div>
         <LogoList />
       </div>

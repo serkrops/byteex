@@ -1,3 +1,7 @@
+export const titleMobile = "FREE SHIPPING on orders > $200";
+export const titleDesktop =
+  "CONSCIOUSLY MADE BUTTER SOFT STAPLES FOR EVERY DAY (OR NIGHT) | FREE SHIPPING on orders > $200 | easy 45 day return window.";
+
 export const globalTitle = {
   hero: "Don’t apologize for being comfortable.",
   benefits: "Loungewear you can be proud of.",

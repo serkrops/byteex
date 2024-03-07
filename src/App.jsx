@@ -9,7 +9,7 @@ import Cta from "./components/Cta";
 
 function App() {
   return (
-    <div className="flex flex-col items-center w-full">
+    <div className="flex flex-col items-center gap-12 w-full">
       <Hero />
       <Benefits />
       <Connection />
