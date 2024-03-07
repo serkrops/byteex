@@ -15,27 +15,27 @@ export const LogoCarousel = () => (
   >
     <SwiperSlide>
       <div className="flex items-start justify-center">
-        <img src="public/images/artboard-eco.png" alt="Eco-stylist" />
+        <img src="/images/artboard-eco.png" alt="Eco-stylist" />
       </div>
     </SwiperSlide>
     <SwiperSlide>
       <div className="flex items-start justify-center">
-        <img src="public/images/artboard-canadian.png" alt="Eco-stylist" />
+        <img src="/images/artboard-canadian.png" alt="Eco-stylist" />
       </div>
     </SwiperSlide>
     <SwiperSlide>
       <div className="flex items-start justify-center">
-        <img src="public/images/artboard-jullian.png" alt="Eco-stylist" />
+        <img src="/images/artboard-jullian.png" alt="Eco-stylist" />
       </div>
     </SwiperSlide>
     <SwiperSlide>
       <div className="flex items-start justify-center">
-        <img src="public/images/artboard-eco-hub.png" alt="Eco-stylist" />
+        <img src="/images/artboard-eco-hub.png" alt="Eco-stylist" />
       </div>
     </SwiperSlide>
     <SwiperSlide>
       <div className="flex items-start justify-center">
-        <img src="public/images/artboard-trenhunter.png" alt="Eco-stylist" />
+        <img src="/images/artboard-trenhunter.png" alt="Eco-stylist" />
       </div>
     </SwiperSlide>
   </Swiper>

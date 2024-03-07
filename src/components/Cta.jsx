@@ -9,25 +9,25 @@ const Cta = () => {
       <p className="text-base text-[#676869] leading-5">
         Click below to browse our collection!
       </p>
-      <img src="public/images/group-cta.png" alt="Group image CTA" />
+      <img src="/images/group-cta.png" alt="Group image CTA" />
       <div className="flex justify-start items-center p-2 min-w-sm max-w-4xl">
         <Button />
       </div>
       <div className="hidden md:flex justify-center items-center gap-4">
         <div className="flex gap-2">
           <img
-            src="public/images/clock.png"
+            src="/images/clock.png"
             alt="Clock icon"
             className="w-[11px] h-[11px]"
           />
           <p className="text-[10px] text-[#1FAD40]">Ships in 1-2 Days</p>
         </div>
-        <img src="public/images/payments.png" alt="Payments" />
+        <img src="/images/payments.png" alt="Payments" />
       </div>
       <div className="hidden md:flex gap-6">
         <div className="flex justify-center gap-2 items-center max-w-80">
           <img
-            src="public/images/truck-small.png"
+            src="/images/truck-small.png"
             alt="Truck"
             className="w-[33px] h-[33px]"
           />
@@ -35,7 +35,7 @@ const Cta = () => {
         </div>
         <div className="flex justify-center gap-2 items-center max-w-80">
           <img
-            src="public/images/shield.png"
+            src="/images/shield.png"
             alt="Truck"
             className="w-[33px] h-[33px]"
           />
@@ -43,7 +43,7 @@ const Cta = () => {
         </div>
         <div className="flex justify-center gap-2 items-center max-w-80">
           <img
-            src="public/images/cart-leaf-small.png"
+            src="/images/cart-leaf-small.png"
             alt="Truck"
             className="w-[33px] h-[33px]"
           />

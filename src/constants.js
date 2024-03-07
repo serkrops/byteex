@@ -11,40 +11,40 @@ export const globalTitle = {
 
 export const features = [
   {
-    img: "public/images/sun-moon.png",
+    img: "/images/sun-moon.png",
     text: "Beautiful, comfortable loungewear for day or night.",
   },
   {
-    img: "public/images/cart.png",
+    img: "/images/cart.png",
     text: "No wasteful extras, like tags or plastic packaging.",
   },
   {
-    img: "public/images/wind.png",
+    img: "/images/wind.png",
     text: "Our signature fabric is incredibly comfortable — unlike anything you’ve ever felt.",
   },
 ];
 
 export const benefits = [
   {
-    img: "public/images/cart.png",
+    img: "/images/cart.png",
     title: "Ethically sourced.",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.",
   },
   {
-    img: "public/images/leaf.png",
+    img: "/images/leaf.png",
     title: "Responsibly made.",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.",
   },
   {
-    img: "public/images/sun-moon.png",
+    img: "/images/sun-moon.png",
     title: "Made for living in.",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.",
   },
   {
-    img: "public/images/wind.png",
+    img: "/images/wind.png",
     title: "Unimaginably comfortable.",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.",

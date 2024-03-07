@@ -9,7 +9,7 @@ const BenefitsList = () => {
       <div className="flex flex-col justify-center items-center gap-6">
         <TitleComponent title={globalTitle.benefits} />
         <div className="flex flex-col items-center gap-2 md:hidden">
-          <ImageSlider image="public/images/white-robe.png" altText="White Robe" />
+          <ImageSlider image="/images/white-robe.png" altText="White Robe" />
           <p className="text-xs text-[#676869] leading-5">White Robe</p>
         </div>
       </div>
