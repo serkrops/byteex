@@ -26,19 +26,19 @@ export const features = [
 
 export const benefits = [
   {
-    img: "src/assets/cloud.png",
+    img: "src/assets/cart.png",
     title: "Ethically sourced.",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.",
   },
   {
-    img: "src/assets/sun-moon.png",
+    img: "src/assets/leaf.png",
     title: "Responsibly made.",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.",
   },
   {
-    img: "src/assets/leaf.png",
+    img: "src/assets/sun-moon.png",
     title: "Made for living in.",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.",
