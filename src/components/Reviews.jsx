@@ -1,17 +1,17 @@
 const Reviews = () => {
   return (
-    <div className="flex flex-col items-center gap-6 p-6">
-      <div className="flex flex-col items-center gap-6 max-w-xl">
+    <div className="flex flex-col items-center justify-center gap-6 w-full">
+      <div className="flex flex-col items-center gap-6">
         <div className="flex justify-center font-normal text-3xl text-center md:text-start text-[#01005B] leading-9 py-1 px-4 min-w-sm">
           <h1>What are our fans saying?</h1>
         </div>
-        <p className="text-center">
+        <p className="text-center max-w-[768px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
           lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et
           felis finibus consequat. Fusce non nibh luctus.
         </p>
       </div>
-      <div className="flex justify-center items-center md:hidden">
+      <div className="flex justify-center items-center md:hidden max-w-[768px]">
         <img
           src="src/assets/group-eight-images.png"
           alt="Group of eight images"
@@ -51,9 +51,9 @@ const Reviews = () => {
           <img src="src/assets/ellipse-gray.png" alt="" />
         </div>
       </div>
-      <div className="hidden gap-8 items-center md:flex">
+      <div className="hidden gap-4 items-center justify-evenly md:flex w-full">
         <img src="src/assets/arrow-left.png" alt="Arrow left" />
-        <div className="flex items-start gap-6">
+        <div className="flex items-start justify-evenly w-full">
           <div className="flex flex-col p-4 border rounded-lg shadow-xl max-w-60">
             <div className="flex gap-1">
               <img src="src/assets/fake-avatar.png" alt="Avatar Image" />

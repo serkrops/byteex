@@ -1,7 +1,7 @@
 const Connection = () => {
   return (
-    <div className="flex flex-col items-center w-full md:flex-row md:justify-between md:items-center md:max-w-7xl py-12 md:p-6 gap-3 bg-[#f0eeef]">
-      <div className="hidden justify-center md:flex">
+    <div className="flex flex-col items-center w-full md:flex-row md:justify-between md:items-center md:max-w-7xl md:p-6 gap-3 bg-[#f0eeef]">
+      <div className="hidden justify-center md:flex p-4">
         <img
           src="src/assets/group-corners-desktop.png"
           alt="Group Image in corners"
@@ -17,7 +17,7 @@ const Connection = () => {
             alt="Group Image in corners"
           />
         </div>
-        <div className="flex flex-col max-w-md p-4 text-sm leading-6 text-[#6C6C6C]">
+        <div className="flex flex-col max-w-md p-2 text-sm leading-6 text-[#6C6C6C]">
           <p>Hi! My name’s [Insert Name], and I founded [Insert] in ____.</p>
           <br />
           <p>

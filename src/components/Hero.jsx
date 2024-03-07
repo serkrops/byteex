@@ -1,3 +1,9 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "../components/swiper.css";
+
 const Hero = () => {
   const heroTitleMobile = "FREE SHIPPING on orders > $200";
   const heroTitleDesktop =
@@ -82,28 +88,75 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center p-4">
-        <div className="flex flex-col items-center gap-4 md:hidden">
-          <p className="text-base text-[#868787]">as seen in</p>
-          <div className="flex justify-center items-center gap-4">
-            <img src="src/assets/artboard-eco.png" alt="Eco-stylist" />
-            <img src="src/assets/artboard-canadian.png" alt="Eco-stylist" />
-            <img src="src/assets/artboard-jullian.png" alt="Eco-stylist" />
-          </div>
-          <div className="flex gap-2">
-            <img src="src/assets/ellipse-gray.png" alt="" />
-            <img src="src/assets/ellipse-black.png" alt="" />
-            <img src="src/assets/ellipse-gray.png" alt="" />
+      <div className="flex items-center md:gap-6 p-4">
+        <div className="flex p-4 md:hidden">
+          <div className="flex gap-2 max-w-[450px]">
+            <Swiper
+              slidesPerView={3}
+              spaceBetween={5}
+              autoplay={{ delay: 2500 }}
+              loop={true}
+              navigation={true}
+              modules={[Autoplay]}
+            >
+              <SwiperSlide>
+                <div className="flex items-start justify-center">
+                  <img src="src/assets/artboard-eco.png" alt="Eco-stylist" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="flex items-start justify-center">
+                  <img
+                    src="src/assets/artboard-canadian.png"
+                    alt="Eco-stylist"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="flex items-start justify-center">
+                  <img
+                    src="src/assets/artboard-jullian.png"
+                    alt="Eco-stylist"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="flex items-start justify-center">
+                  <img
+                    src="src/assets/artboard-eco-hub.png"
+                    alt="Eco-stylist"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="flex items-start justify-center">
+                  <img
+                    src="src/assets/artboard-trenhunter.png"
+                    alt="Eco-stylist"
+                  />
+                </div>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
-        <div className="hidden flex-col justify-center items-center gap-4 md:flex">
+        <div className="hidden flex-col items-center gap-4 md:flex w-full">
           <p className="text-base text-[#868787]">as seen in</p>
-          <div className="flex justify-between items-center gap-2 w-full">
-            <img src="src/assets/artboard-eco.png" alt="Eco-stylist" />
-            <img src="src/assets/artboard-canadian.png" alt="Eco-stylist" />
-            <img src="src/assets/artboard-jullian.png" alt="Eco-stylist" />
-            <img src="src/assets/artboard-eco-hub.png" alt="Eco-stylist" />
-            <img src="src/assets/artboard-trenhunter.png" alt="Eco-stylist" />
+          <div className="flex justify-evenly items-center">
+            <div className="flex items-center justify-center p-1">
+              <img src="src/assets/artboard-eco.png" alt="Eco-stylist" />
+            </div>
+            <div className="flex items-center justify-center p-1">
+              <img src="src/assets/artboard-canadian.png" alt="Eco-stylist" />
+            </div>
+            <div className="flex items-center justify-center p-1">
+              <img src="src/assets/artboard-jullian.png" alt="Eco-stylist" />
+            </div>
+            <div className="flex items-center justify-center p-1">
+              <img src="src/assets/artboard-eco-hub.png" alt="Eco-stylist" />
+            </div>
+            <div className="flex items-center justify-center p-1">
+              <img src="src/assets/artboard-trenhunter.png" alt="Eco-stylist" />
+            </div>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 const Cta = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center gap-6">
+      <div className="flex flex-col justify-center items-center gap-6 p-6">
         <div className="flex justify-center font-normal text-3xl text-center md:text-start text-[#15005B] leading-9 py-1 px-4 min-w-sm">
           <h1>Our Total Green Impact</h1>
         </div>
